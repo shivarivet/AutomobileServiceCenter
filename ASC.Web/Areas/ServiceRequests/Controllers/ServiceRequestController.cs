@@ -181,7 +181,7 @@ namespace ASC.Web.Areas.ServiceRequests.Controllers
                 users.Add(serviceEngineerName);
             }
 
-            // Broadcast the message to all clients asscoaited with Service Request
+            //// Broadcast the message to all clients asscoaited with Service Request
             //await _serviceMessagesHubContext
             //.Clients
             //.Users(users)
